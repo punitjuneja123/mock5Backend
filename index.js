@@ -8,7 +8,7 @@ const middleware = jsonServer.defaults();
 server.use(jsonServer.bodyParser);
 server.use(middleware);
 server.use(router);
-server.use(cors({ origin: "*", methods: "GET,HEAD,PUT,PATCH,POST,DELETE" }));
+server.use(cors({ origin: "*" }));
 server.listen(4500, () => {
   console.log("json server running");
 });
