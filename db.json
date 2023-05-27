@@ -1,0 +1,48 @@
+{
+  "freelancers": [
+    {
+      "name": "John Doe",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSos8WJJwI6qi-oyEqumgt5myV32u4aP3FvUA&usqp=CAU",
+      "email": "john@example.com",
+      "password": "password",
+      "profession": "Web Developer",
+      "skills": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "hourly_rate": 25,
+      "profile_picture": "profile1.jpg",
+      "isBooked": false,
+      "id": 1
+    },
+    {
+      "name": "Jane Smith",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSos8WJJwI6qi-oyEqumgt5myV32u4aP3FvUA&usqp=CAU",
+      "email": "jane@example.com",
+      "password": "password",
+      "profession": "Graphic Designer",
+      "skills": [
+        "Photoshop",
+        "Illustrator"
+      ],
+      "hourly_rate": 30,
+      "profile_picture": "profile2.jpg",
+      "isBooked": true,
+      "id": 4
+    },
+    {
+      "name": "monu",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSos8WJJwI6qi-oyEqumgt5myV32u4aP3FvUA&usqp=CAU",
+      "email": "monu@mail.com",
+      "password": "12345",
+      "isBooked": false,
+      "profession": "Graphic Designer",
+      "skills": [
+        "abode After Effect"
+      ],
+      "hourly_rate": "40",
+      "id": 5
+    }
+  ]
+}
