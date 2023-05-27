@@ -5,10 +5,10 @@ const server = jsonServer.create();
 const router = jsonServer.router(path.join(__dirname, "db.json"));
 const middleware = jsonServer.defaults();
 
-server.use(cors());
 server.use(jsonServer.bodyParser);
 server.use(middleware);
 server.use(router);
+server.use(cors());
 server.listen(4500, () => {
   console.log("json server running");
 });
